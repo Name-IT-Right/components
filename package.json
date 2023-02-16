@@ -1,0 +1,36 @@
+{
+  "name": "@name-it-right/components",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "/dist/*"
+  ],
+  "scripts": {
+    "build": "rm -rf dist/* && rollup --config rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Name-IT-Right/components.git"
+  },
+  "author": "Piotrek Witkowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Name-IT-Right/components/issues"
+  },
+  "homepage": "https://github.com/Name-IT-Right/components#readme",
+  "dependencies": {
+    "@cloudscape-design/components": "^3.0.197"
+  },
+  "devDependencies": {
+    "@name-it-right/types": "^2.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.28",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^3.15.0",
+    "typescript": "^4.9.5"
+  }
+}
