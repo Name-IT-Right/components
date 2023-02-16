@@ -2,6 +2,9 @@
 
 UI Components for Name IT Right
 
+## Install
+`npm i @name-it-right/components`
+
 ## Available components - React
 
 ### `ValidatedFormField`
