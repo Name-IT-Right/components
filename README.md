@@ -40,7 +40,7 @@ const Component = () => {
       <Input
         value={inputValue}
         onChange={handleOnChange}
-        placeholder='myawsbucket'
+        placeholder="myawsbucket"
       />
     </ValidatedFormField>
   )
