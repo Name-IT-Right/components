@@ -43,7 +43,7 @@ const Component = () => {
         placeholder='myawsbucket'
       />
     </ValidatedFormField>
-    )
+  )
 }
 ```
 
